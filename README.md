@@ -2,15 +2,15 @@
 
 This is an algorithm that estimate the skew angle of a given document image using Mathematical Morphology and Hough Transform. The implementation uses OpenCV for reading and processing images.
 
-##Requirements
+## Requirements
 -OpenCV
 -GCC
 -OpenMP (to enable multithreading)
 
-##Compiling
+## Compiling
 g++ estimate.cpp -o estimate `pkg-config --cflags --libs opencv` -fopenmp
 
-##Usage
+## Usage
 In order to estimate the skew of a set of document images contained in a directory you can use the following command:
 ./estimate <directory_name> [visualize]
 
@@ -24,7 +24,7 @@ Later you can run the analyse.py script to collect the results.
 2) ./estimate samples/ 1
 The above command will function the same as the first example, but it will generate intermediate results images, in order to show the process in more detail. This will not generate an output that's interpretable by the analyse.py script.
 
-##Collecting Results
+## Collecting Results
 To collect the results from running the (1) example command, you can use the analyse.py script. In order to collect the results you need a file with the ground truth for all tested images.
 It will generate the following results:
 -Average Absolute Error (AED)

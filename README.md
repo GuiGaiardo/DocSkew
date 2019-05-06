@@ -28,11 +28,17 @@ The above command will function the same as the first example, but it will gener
 
 ## Collecting Results
 To collect the results from running the (1) example command, you can use the analyse.py script. In order to collect the results you need a file with the ground truth for all tested images.
+
 It will generate the following results:
+
 -Average Absolute Error (AED)
+
 -Averate Top 80 (AED for the 80% best estimations)
+
 -No Corrects (No. of estimations with error <= 0.1 degrees)
+
 -Correct Estimations (% of correct estimations)
+
 -Max bottom20 (maximum error)
 
 ##Dataset

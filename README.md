@@ -41,5 +41,5 @@ It will generate the following results:
 
 -Max bottom20 (maximum error)
 
-##Dataset
+## Dataset
 We refer the reader to the ICDAR-DISEC2013 dataset to test the algorithm. It can be found in http://users.iit.demokritos.gr/~alexpap/DISEC13/resources.html. The dataset contains 1550 real document images along their ground truth. The dataset contains a number of features, such as languages, contents, layouts, fonts...

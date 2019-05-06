@@ -4,7 +4,9 @@ This is an algorithm that estimate the skew angle of a given document image usin
 
 ## Requirements
 -OpenCV
+
 -GCC
+
 -OpenMP (to enable multithreading)
 
 ## Compiling

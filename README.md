@@ -10,7 +10,7 @@ This is an algorithm that estimate the skew angle of a given document image usin
 -OpenMP (to enable multithreading)
 
 ## Compiling
-g++ estimate.cpp -o estimate `pkg-config --cflags --libs opencv` -fopenmp
+g++ estimate.cpp -o estimate \`pkg-config --cflags --libs opencv\` -fopenmp
 
 ## Usage
 In order to estimate the skew of a set of document images contained in a directory you can use the following command:
